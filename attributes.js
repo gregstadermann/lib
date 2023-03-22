@@ -1,6 +1,16 @@
 'use strict';
 
 module.exports = [
+  { name: 'agility', base: 0 },
+  { name: 'aura', base: 0 },
+  { name: 'constitution', base: 0 },
+  { name: 'dexterity', base: 0 },
+  { name: 'discipline', base: 0 },
+  { name: 'charisma', base: 0 },
+  { name: 'intuition', base: 0 },
+  { name: 'strength', base: 0 },
+  { name: 'intelligence', base: 0 },
+  { name: 'wisdom', base: 0 },
   {
     name: 'health',
     base: 100,
@@ -12,9 +22,6 @@ module.exports = [
     },
   },
   { name: 'energy', base: 100 },
-  { name: 'strength', base: 0 },
-  { name: 'agility', base: 0 },
-  { name: 'intellect', base: 0 },
   { name: 'stamina', base: 0 },
   { name: 'armor', base: 0 },
   {
