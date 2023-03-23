@@ -1,6 +1,24 @@
 'use strict';
 
 module.exports = [
+  {
+    name: 'armor use',
+    base: 0,
+    metadata: {
+      label: 'Armor Use',
+      abbr: 'armor',
+      ranks: 0
+    },
+  },
+  {
+    name: 'edged weapons',
+    base: 0,
+    metadata: {
+      label: 'Edged Weapons',
+      abbr: 'edged',
+      ranks: 0
+      },
+  },
   { name: 'agility', base: 0 },
   { name: 'aura', base: 0 },
   { name: 'constitution', base: 0 },
