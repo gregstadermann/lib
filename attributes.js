@@ -35,7 +35,7 @@ module.exports = [
     formula: {
       requires: [],
       fn: function (character, health) {
-        return health + (character.level ** 2);
+        return health + (character.level * 2) + (character.getAttribute('constitution')/10);
       },
     },
   },
@@ -48,7 +48,7 @@ module.exports = [
     formula: {
       requires: [],
       fn: function (character, AS) {
-        return AS + (character.getAttribute('strength') ** 2);
+        return AS + (character.getAttribute('strength'));
       },
     },
   },
