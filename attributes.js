@@ -1,31 +1,39 @@
 'use strict';
 
 module.exports = [
-  {
-    name: 'armor use',
-    base: 0,
-    metadata: {
-      label: 'Armor Use',
-      abbr: 'armor',
-      ranks: 0
-    },
-  },
-  {
-    name: 'edged weapons',
-    base: 0,
-    metadata: {
-      label: 'Edged Weapons',
-      abbr: 'edged',
-      ranks: 0
-      },
-  },
-  { name: 'agility', base: 0 },
+  { name: 'armor_use', base: 0 },
+  { name: 'brawling', base: 0 },
+  { name: 'one_handed_edged', base: 0 },
+  { name: 'one_handed_blunt', base: 0 },
+  { name: 'two_handed', base: 0 },
+  { name: 'polearm', base: 0 },
+  { name: 'ranged', base: 0 },
+  { name: 'thrown', base: 0 },
+  { name: 'combat_maneuvers', base: 0 },
+  { name: 'shield_use', base: 0 },
+  { name: 'climbing', base: 0 },
+  { name: 'swimming', base: 0 },
+  { name: 'disarm_traps', base: 0 },
+  { name: 'pick_locks', base: 0 },
+  { name: 'stalk_and_hide', base: 0 },
+  { name: 'perception', base: 0 },
+  { name: 'ambush', base: 0 },
+
+  { name: 'spell_aim', base: 0 },
+  { name: 'physical_training', base: 0 },
+  { name: 'mana_share', base: 0 },
+  { name: 'magic_item_use', base: 0 },
+  { name: 'scroll_reading', base: 0 },
+  { name: 'first_aid', base: 0 },
+
+  { name: 'logic', base: 0 },
+  { name: 'reflexes', base: 0 },
+  { name: 'quickness', base: 0 },
   { name: 'aura', base: 0 },
   { name: 'constitution', base: 0 },
   { name: 'dexterity', base: 0 },
   { name: 'discipline', base: 0 },
   { name: 'charisma', base: 0 },
-  { name: 'intuition', base: 0 },
   { name: 'strength', base: 0 },
   { name: 'intelligence', base: 0 },
   { name: 'wisdom', base: 0 },
@@ -40,8 +48,8 @@ module.exports = [
     },
   },
   { name: 'energy', base: 100 },
+  { name: 'mana', base: 100 },
   { name: 'stamina', base: 0 },
-  { name: 'armor', base: 0 },
   {
     name: 'AS',
     base: 0,
