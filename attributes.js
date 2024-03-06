@@ -24,7 +24,12 @@ module.exports = [
   { name: 'mana_share', base: 0 },
   { name: 'magic_item_use', base: 0 },
   { name: 'scroll_reading', base: 0 },
+  { name: 'harness_power', base: 0 },
   { name: 'first_aid', base: 0 },
+
+  { name: 'major_elemental', base: 0 },
+  { name: 'minor_elemental', base: 0 },
+  { name: 'wizard_base', base: 0 },
 
   { name: 'logic', base: 0 },
   { name: 'reflexes', base: 0 },
