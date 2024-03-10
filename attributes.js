@@ -29,7 +29,17 @@ module.exports = [
 
   { name: 'major_elemental', base: 0 },
   { name: 'minor_elemental', base: 0 },
+
+  { name: 'major_spiritual', base: 0 },
+  { name: 'minor_spiritual', base: 0 },
+
+  { name: 'cleric_base', base: 0 },
   { name: 'wizard_base', base: 0 },
+  { name: 'empath_base', base: 0 },
+  { name: 'sorcerer_base', base: 0 },
+  { name: 'ranger_base', base: 0 },
+  { name: 'paladin_base', base: 0 },
+  { name: 'bard_base', base: 0 },
 
   { name: 'logic', base: 0 },
   { name: 'reflexes', base: 0 },
@@ -53,7 +63,7 @@ module.exports = [
     },
   },
   { name: 'energy', base: 100 },
-  { name: 'mana', base: 100 },
+  { name: 'mana', base: 0 },
   { name: 'stamina', base: 0 },
   {
     name: 'AS',
