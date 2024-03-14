@@ -41,6 +41,7 @@ module.exports = [
   { name: 'paladin_base', base: 0 },
   { name: 'bard_base', base: 0 },
 
+  // These are the base attributes
   { name: 'logic', base: 0 },
   { name: 'reflexes', base: 0 },
   { name: 'quickness', base: 0 },
