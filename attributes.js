@@ -1,5 +1,5 @@
 'use strict';
-
+// This is the base attributes for the characters (players and npcs)
 module.exports = [
   { name: 'armor_use', base: 0 },
   { name: 'brawling', base: 0 },
@@ -77,5 +77,6 @@ module.exports = [
     },
   },
   { name: 'DS', base: 0 },
+  { name: 'AT', base: 0 },
   { name: 'critical', base: 0 },
 ];
